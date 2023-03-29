@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="java 배열">
-      <change afterPath="$PROJECT_DIR$/src/day03/AarraySearch.java" afterDir="false" />
+    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="Java index Search">
+      <change afterPath="$PROJECT_DIR$/src/day03/AarraySearchQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/ArrayDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/ArrayInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.AarraySearch">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.Matrix">
     <configuration name="AarraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03.AarraySearch" />
       <module name="java_basic" />
@@ -73,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayCopy" />
+    <configuration name="AarraySearchQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.AarraySearchQuiz" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayPop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayPop" />
+    <configuration name="ArrayDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.ArrayDelete" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayPush" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayPush" />
+    <configuration name="ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.ArrayInsert" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayPushQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayPushQuiz" />
+    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.Matrix" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Matrix" />
+        <item itemvalue="애플리케이션.ArrayInsert" />
+        <item itemvalue="애플리케이션.ArrayDelete" />
+        <item itemvalue="애플리케이션.AarraySearchQuiz" />
         <item itemvalue="애플리케이션.AarraySearch" />
-        <item itemvalue="애플리케이션.ArrayPushQuiz" />
-        <item itemvalue="애플리케이션.ArrayPop" />
-        <item itemvalue="애플리케이션.ArrayPush" />
-        <item itemvalue="애플리케이션.ArrayCopy" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679984135932</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java index Search">
+      <created>1680049858531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680049858531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +206,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="java 형변환" />
     <MESSAGE value="java 배열" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 배열" />
+    <MESSAGE value="Java index Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java index Search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
