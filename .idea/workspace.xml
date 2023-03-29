@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="java 형변환">
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPushQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/StdIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/SwitchExample.java" afterDir="false" />
+    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="java 배열">
+      <change afterPath="$PROJECT_DIR$/src/day03/AarraySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,20 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="애플리케이션.ArrayPushQuiz">
-    <configuration name="ArrayBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayBasic" />
+}</component>
+  <component name="RunManager" selected="애플리케이션.AarraySearch">
+    <configuration name="AarraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.AarraySearch" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.AarraySearch" />
         <item itemvalue="애플리케이션.ArrayPushQuiz" />
         <item itemvalue="애플리케이션.ArrayPop" />
         <item itemvalue="애플리케이션.ArrayPush" />
         <item itemvalue="애플리케이션.ArrayCopy" />
-        <item itemvalue="애플리케이션.ArrayBasic" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679888618047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java 배열">
+      <created>1679984135932</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679984135932</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +190,8 @@
     <MESSAGE value="Changes" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="java 형변환" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 형변환" />
+    <MESSAGE value="java 배열" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 배열" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
