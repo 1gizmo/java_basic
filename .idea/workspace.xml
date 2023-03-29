@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="Java index Search">
-      <change afterPath="$PROJECT_DIR$/src/day03/AarraySearchQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/ArrayDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/ArrayInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
+    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="2차원 배열">
+      <change afterPath="$PROJECT_DIR$/src/day03/MethodBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +66,7 @@
       <recent name="day03" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Matrix">
-    <configuration name="AarraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.AarraySearch" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.MethodBasic">
     <configuration name="AarraySearchQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03.AarraySearchQuiz" />
       <module name="java_basic" />
@@ -133,13 +119,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MethodBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.MethodBasic" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MethodBasic" />
         <item itemvalue="애플리케이션.Matrix" />
         <item itemvalue="애플리케이션.ArrayInsert" />
         <item itemvalue="애플리케이션.ArrayDelete" />
         <item itemvalue="애플리케이션.AarraySearchQuiz" />
-        <item itemvalue="애플리케이션.AarraySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680049858531</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2차원 배열">
+      <created>1680057428767</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680057428767</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +213,8 @@
     <MESSAGE value="java 형변환" />
     <MESSAGE value="java 배열" />
     <MESSAGE value="Java index Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java index Search" />
+    <MESSAGE value="2차원 배열" />
+    <option name="LAST_COMMIT_MESSAGE" value="2차원 배열" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
