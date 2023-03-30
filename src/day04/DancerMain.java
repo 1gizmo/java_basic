@@ -16,11 +16,11 @@ public class DancerMain {
 
         System.out.println(kim.introduce());
         System.out.println(park.introduce());
-        System.out.println(jang.introduce());
+//        System.out.println(jang.introduce());
 
         kim.dance();
         park.dance();
-        jang.dance();
+//        jang.dance();
 
     }
 }
