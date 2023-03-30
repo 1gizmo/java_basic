@@ -46,11 +46,11 @@ public class MethodBasic {
 
     public static void main(String[] args) {
 
-        int resulf = add(10, 20);
-        System.out.println("resulf = " + resulf);
-        int x = addAll(new int[]{10, 20, 40});
-        System.out.println("x = " + x);
-        int y = addAll({10, 20, 30, 40, 50});
+//        int resulf = add(10, 20);
+//        System.out.println("resulf = " + resulf);
+//        int x = addAll(new int[]{10, 20, 40});
+//        System.out.println("x = " + x);
+//        int y = addAll({10, 20, 30, 40, 50});
 
 
 
