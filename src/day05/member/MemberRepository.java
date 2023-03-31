@@ -23,7 +23,7 @@ public class MemberRepository {
      */
     void showMembers() {
         System.out.printf("=========== 현재 회원정보 (총 %d명) ===========\n"
-                , memberList.length);
+                                , memberList.length);
         for (Member m : memberList) {
             System.out.println(m.inform());
         }
@@ -64,5 +64,24 @@ public class MemberRepository {
         }
         return false;
     }
+    // 마지막 회원의 번호를 알려주는 기능
+    int getLastMemberId(){
+        return memberList[memberList.length -1].memberId;
+
+    }
+    // 이메일을 통해 특정 회원 객체를 찾아서 반환하는 기능
+    // param1 email : 찾고싶은 회원의 이메일
+    // return : 찾은 회원의 객체정보 , 못찾으면 null 반환
+    Member findByEmail(String email) {
+        for (Member m : memberList) {
+            if (email.equals(m.email)) {
+                return m;
+            }
+        }
+        return null;
+    }
+
 
 }
+
+

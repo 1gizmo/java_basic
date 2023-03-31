@@ -1,5 +1,6 @@
 package day05.member;
 
+// 역할: 1명의 회원정보를 묶어주는 역할
 public class Member {
 
     int memberId;
@@ -23,8 +24,8 @@ public class Member {
         String convertGender = (gender == Gender.MALE) ? "남성" : "여성";
 
         return String.format("# %d번 | %s | %s | %s | %d세"
-                , this.memberId, this.email, this.memberName
-                , convertGender, this.age
+                        , this.memberId, this.email, this.memberName
+                        , convertGender, this.age
         );
     }
 }
