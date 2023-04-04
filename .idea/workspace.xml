@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# this , 멤버관리">
-      <change afterPath="$PROJECT_DIR$/src/day05/member/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/MemberView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/요구사항.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Hunter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/요구사항.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +76,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_basic\src\fruit" />
+      <recent name="D:\java_basic\src" />
       <recent name="D:\java_basic\src\day05\member" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day03" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day05.member.Main">
-    <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.day07.inherit.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.array.Main" />
       <module name="java_basic" />
@@ -140,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day07.inherit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.inherit.Main" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.inherit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day07.inherit.Main" />
         <item itemvalue="애플리케이션.day05.member.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.PackagePractice" />
         <item itemvalue="애플리케이션.StringCompare" />
-        <item itemvalue="애플리케이션.DancerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680229038840</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="# this , 멤버관리">
+      <created>1680234210403</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680234210403</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
