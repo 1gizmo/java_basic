@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# this , 멤버관리">
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Hunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Parent.java" afterDir="false" />
+    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# 상속">
+      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/GIsaFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac2/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac2/D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/요구사항.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680234210403</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="# 상속">
+      <created>1680576383433</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680576383433</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +268,8 @@
     <MESSAGE value="객체" />
     <MESSAGE value="메서드 생성" />
     <MESSAGE value="# this , 멤버관리" />
-    <option name="LAST_COMMIT_MESSAGE" value="# this , 멤버관리" />
+    <MESSAGE value="# 상속" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 상속" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
