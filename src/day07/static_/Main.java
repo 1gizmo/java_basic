@@ -1,17 +1,18 @@
 package day07.static_;
 
 import day07.protec.Util.Utility;
-
+// static 필드와 메서드를 그냥 참조 가능
+import static day07.protec.Util.Utility.*;
 import java.sql.SQLOutput;
-
+import static day07.static_.Count.*;
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(Count.x);
+        System.out.println(x);
         System.out.println(Math.random());
 
-        Count.m1();
+//        Count.m1();
 
 
         Count c1 = new Count();
@@ -19,10 +20,10 @@ public class Main {
 
         c2.m2();
 
-        Count.x = 10;
+        x = 10;
         c2.y = 20;
 
-        Count.x++;
+        x++;
 
         System.out.printf("c1 = x: %d, y: %d\n", c1.x, c1.y);
         System.out.printf("c2 = x: %d, y: %d\n", c2.x, c2.y);
@@ -40,8 +41,10 @@ public class Main {
         Calculator.calcAreaCircle(5);
         System.out.println("cal2. = " + cal2);
 
-        Utility.makeLine();
-      Utility.input("하하호호");
+        makeLine();
+        input("하하호호");
+
+
 
     }
 
