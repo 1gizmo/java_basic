@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# 상속">
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/GIsaFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac2/D.java" afterDir="false" />
+    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# 상속 +">
+      <change afterPath="$PROJECT_DIR$/src/day07/protec/Util/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/static_/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/static_/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/protec/pac2/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/protec/pac2/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/static_/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/static_/Count.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <recent name="day03" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day07.inherit.Main">
+  <component name="RunManager" selected="애플리케이션.day07.static_.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.array.Main" />
       <module name="java_basic" />
@@ -90,19 +90,6 @@
     </configuration>
     <configuration name="PackagePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.PackagePractice" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.StringCompare" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
@@ -140,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day07.static_.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.static_.Main" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.static_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day07.static_.Main" />
         <item itemvalue="애플리케이션.day07.inherit.Main" />
         <item itemvalue="애플리케이션.day05.member.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.PackagePractice" />
-        <item itemvalue="애플리케이션.StringCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680576383433</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="# 상속 +">
+      <created>1680585848152</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680585848152</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +276,8 @@
     <MESSAGE value="메서드 생성" />
     <MESSAGE value="# this , 멤버관리" />
     <MESSAGE value="# 상속" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 상속" />
+    <MESSAGE value="# 상속 +" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 상속 +" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
