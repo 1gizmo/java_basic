@@ -1,6 +1,8 @@
 package day07.lotto;
 
-import day07.util.Utility;
+
+
+import day07.protec.Util.Utility;
 
 import java.util.Arrays;
 

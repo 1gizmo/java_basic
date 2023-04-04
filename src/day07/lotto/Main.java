@@ -14,7 +14,7 @@ public class Main  {
         }
         System.out.println("mumber = " + Arrays.toString(mumber));*/
 
-        Lotto.loottoNumber();
-
+//        Lotto.information();
+        LottoSimulator.run();
     }
 }
