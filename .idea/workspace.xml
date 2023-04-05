@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# lotto">
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/HpMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/LgMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/SamsungKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/CarShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Mustang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Stinger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Tucson.java" afterDir="false" />
+    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# 다형성">
+      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/poly/overloading/Over.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/car/CarShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/CarShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <recent name="day03" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day07.lotto.Main">
+  <component name="RunManager" selected="애플리케이션.day07.inherit.Main">
     <configuration name="ArrayBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02.ArrayBasic" />
       <module name="java_basic" />
@@ -98,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day05.member.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.member.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.poly.car.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.member.*" />
+          <option name="PATTERN" value="day08.poly.car.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day07.inherit.Main" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.day07.lotto.Main" />
         <item itemvalue="애플리케이션.ArrayBasic" />
         <item itemvalue="애플리케이션.day07.static_.Main" />
-        <item itemvalue="애플리케이션.day07.inherit.Main" />
-        <item itemvalue="애플리케이션.day05.member.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680598222511</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="# 다형성">
+      <created>1680655970192</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680655970192</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +313,8 @@
     <MESSAGE value="# 상속 +" />
     <MESSAGE value="# static" />
     <MESSAGE value="# lotto" />
-    <option name="LAST_COMMIT_MESSAGE" value="# lotto" />
+    <MESSAGE value="# 다형성" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 다형성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

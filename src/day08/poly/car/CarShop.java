@@ -25,6 +25,27 @@ public class CarShop {
                 new Mustang()
         };
     }
+    // 주행 테스트 기능
+    public void runTest() {
+        importCar();
+        for (Car car: cars) {
+            car.accelerate();
+        }
+    }
+
+    // 차를 고객에게 인도하는 기능
+    public Car exportCar(int money){
+        if(money == 6000){
+            return new Mustang();
+        } else if (money == 5000) {
+            return new Stinger();
+        } else if (money == 3000) {
+            return new Tucson();
+        }else{
+            return null;
+        }
+    };
+
 
 
 
