@@ -1,6 +1,6 @@
 package day09.inter;
 
-public class Shark implements BadAnimal{
+public class Shark extends Animal implements BadAnimal{
     @Override
     public void hunt() {
 
