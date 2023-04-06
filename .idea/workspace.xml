@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# 자바연습문제 도서관 프로그램">
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/GoldFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/final_/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/final_/Person.java" afterDir="false" />
+    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# 추상화">
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/BadAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/BullDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Huntable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Wild.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -298,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680684446771</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="# 추상화">
+      <created>1680745421425</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680745421425</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +340,8 @@
     <MESSAGE value="# 다형성" />
     <MESSAGE value="# 다형성2" />
     <MESSAGE value="# 자바연습문제 도서관 프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 자바연습문제 도서관 프로그램" />
+    <MESSAGE value="# 추상화" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 추상화" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
