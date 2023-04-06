@@ -1,9 +1,21 @@
 package day09.quiz;
 
-public class Galaxy extends SmartPhone implements Pencil{
+public class Galaxy extends SmartPhone implements Pencil {
+    public Galaxy(String model) {
+        super(model);
+    }
+
     @Override
     public String information() {
-        return null;
+        String message = String.format("갤럭시는 %s에서 만들어졌고 제원은 다음과 같다.\n", getModel());
+        message += makeCall() + "\n";
+        message += takeCall() + "\n";
+        message += takePicture() + "\n";
+        message += charge() + "\n";
+        message += touchDisplay() + "\n";
+        message += "블루투스 펜 탑재 여부: " + bluetoothPen() + "\n";
+
+        return message;
     }
 
     @Override
@@ -12,23 +24,8 @@ public class Galaxy extends SmartPhone implements Pencil{
     }
 
     @Override
-    public String getModel(String model) {
-        return super.getModel();
-    }
-
-    @Override
-    public void setModel(String model) {
-        super.setModel(model);
-    }
-
-    @Override
     public String takePicture() {
         return "1300만 듀얼카메라";
-    }
-
-    @Override
-    public boolean bluetoothPen() {
-        return true;
     }
 
     @Override
@@ -39,6 +36,11 @@ public class Galaxy extends SmartPhone implements Pencil{
     @Override
     public String takeCall() {
         return "전화받기 버튼을 누름";
+    }
+
+    @Override
+    public boolean bluetoothPen() {
+        return true;
     }
 
     @Override

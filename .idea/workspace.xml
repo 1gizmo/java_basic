@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# interface">
-      <change afterPath="$PROJECT_DIR$/src/day09/inter/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Galaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/quiz/IPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Pencil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/quiz/PhoneCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/quiz/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/quiz/Touchable.java" afterDir="false" />
+    <list default="true" id="7710ad3f-cbf9-40fd-9040-ec75173e01cf" name="Changes" comment="# quiz">
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz2/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz2/ArtistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz2/ArtistView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/quiz2/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/inter/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/inter/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/inter/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/inter/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/inter/Shark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/inter/Shark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/quiz/Galaxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/quiz/Galaxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/quiz/IPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/quiz/IPhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680749319049</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="# quiz">
+      <created>1680752132414</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680752132414</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +353,8 @@
     <MESSAGE value="# 자바연습문제 도서관 프로그램" />
     <MESSAGE value="# 추상화" />
     <MESSAGE value="# interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="# interface" />
+    <MESSAGE value="# quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="# quiz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
