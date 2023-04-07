@@ -2,7 +2,7 @@ package day09.quiz;
 
 public class Galaxy extends SmartPhone implements Pencil {
     public Galaxy(String model) {
-        super(model);
+//        super(model);
     }
 
     @Override

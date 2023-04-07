@@ -29,7 +29,7 @@ public class ArtistView {
                     insertProcess();
                     break;
                 case "2":
-                    searchProcess();
+//                    searchProcess();
                     break;
                 case "3":
                     System.out.println("# 프로그램을 종료합니다.");
@@ -65,10 +65,5 @@ public class ArtistView {
 
     }
 
-    // 2번 메뉴 기능
-    private static void searchProcess() {
-        System.out.println("\n# 검색할 가수명을 입력하세요");
-        String
-    }
 
 }

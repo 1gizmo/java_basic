@@ -9,7 +9,7 @@ public class Main {
                 new Dog("최강","불독",4),
                 new Cat("꾸꾸까까","러시안블루",2)
         };
-            new Pet("그냥동물","그냥종",11);
+//            new Pet("그냥동물","그냥종",11);
         for (Pet pet : pets) {
             pet.takeNap();
         }

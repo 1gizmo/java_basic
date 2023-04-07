@@ -2,7 +2,7 @@ package day09.quiz;
 
 public class IPhone extends SmartPhone {
     public IPhone(String model) {
-        super(model);
+//        super(model);
     }
 
     @Override
