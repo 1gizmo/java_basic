@@ -52,7 +52,7 @@ public class ArtistView {
 
         // 신규 가수인 경우
         if (!ar.isRegistered(artistName)) {
-            ar.addNewA0rtist(artistName, songName);
+//            ar.addNewA0rtist(artistName, songName);
             System.out.printf("\n# %s님이 신규 등록되었습니다.\n", artistName);
         } else { // 기존가수인 경우
             boolean flag = ar.addNewSong(artistName, songName);

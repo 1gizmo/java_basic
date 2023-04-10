@@ -35,7 +35,7 @@ public class SetExample {
             System.out.println("food = " + food);
         }
 
-        // remove(obj) : 삭제
+        // remove(day11.api.obj) : 삭제
         foodSet.remove("단무지");
 
         System.out.println("foodSet = " + foodSet);
