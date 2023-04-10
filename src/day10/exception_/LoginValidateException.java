@@ -1,4 +1,4 @@
-package day10.exception;
+package day10.exception_;
 
 public class LoginValidateException extends RuntimeException{
 

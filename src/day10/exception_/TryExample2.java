@@ -1,4 +1,4 @@
-package day10.exception;
+package day10.exception_;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
