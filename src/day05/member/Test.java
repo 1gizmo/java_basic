@@ -4,7 +4,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        MemberRepository mr = new MemberRepository();
+        MemberRepository2 mr = new MemberRepository2();
 
 
         Member thief = new Member(4, "uuu@eee.com",

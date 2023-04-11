@@ -6,12 +6,12 @@ import java.time.LocalDate;
 // Java Bean
 public class Member {
 
-    int memberId;
-    String email;
-    String password;
-    String memberName;
-    Gender gender;
-    int age;
+    public int memberId;
+    public String email;
+    public String password;
+    public String memberName;
+    public Gender gender;
+    public int age;
 
     // 회원가입일
     LocalDate regDate;
@@ -26,12 +26,12 @@ public class Member {
     }
 
     // 회원정보를 문자열로 만들어서 리턴하는 기능
-   public String inform() {
+    public String inform() {
         String convertGender = (gender == Gender.MALE) ? "남성" : "여성";
 
         return String.format("# %d번 | %s | %s | %s | %d세"
-                        , this.memberId, this.email, this.memberName
-                        , convertGender, this.age
+                , this.memberId, this.email, this.memberName
+                , convertGender, this.age
         );
     }
 }

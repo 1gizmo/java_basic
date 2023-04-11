@@ -1,12 +1,11 @@
 package day05.member;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
 
 // 역할: 회원 저장소 역할
-public class MemberRepository {
+public class MemberRepository2 {
 
     public static final int NOT_FOUND = -1;
 
@@ -16,7 +15,7 @@ public class MemberRepository {
     // 삭제된 회원 배열
     Member[] removeMembers;
 
-    public MemberRepository() {
+    public MemberRepository2() {
         this.memberList = new Member[0];
 //        memberList[0] = new Member(1, "abc@def.com",
 //                "1234", "콩벌레",

@@ -8,11 +8,11 @@ import static day05.member.Gender.*;
 public class MemberView {
 
     Scanner sc;
-    MemberRepository mr;
+    MemberRepository2 mr;
 
     public MemberView() {
         this.sc = new Scanner(System.in);
-        this.mr = new MemberRepository();
+        this.mr = new MemberRepository2();
     }
 
     /**
